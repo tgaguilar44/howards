@@ -13,12 +13,13 @@ body {
 header {
     color: aqua;
     text-align: center;
-    font-size: 75px;
+    font-size: 10vw;
     margin: 50px;
 }
 
 h1 {
     text-align: center;
+    font-size: 1.2vw;
     margin: 50px;
     font-size: 40px;
     background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -29,6 +30,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 1.9vw;
     margin: 25px;
     background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 20px;
@@ -42,7 +44,7 @@ h3 {
     margin-left: 10%;
     float: left;
     width: 33.33%;
-    font-size: 30px;
+    font-size: 1.93vw;
     background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 20px;
     font-family: 'Righteous', cursive;
@@ -55,7 +57,7 @@ h4 {
     margin-right: 10%;
     float: right;
     width: 33.33%;
-    font-size: 50px;
+    font-size: 3vw;
     margin-top: 25px;
     background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 20px;
@@ -68,19 +70,16 @@ p {
     margin-right: 10%;
     float: right;
     width: 33.33%;
-    font-size: 32px;
+    font-size: 2.1vw;
     margin-top: 25px;
     background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 20px;
     font-family: 'Righteous', cursive;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     h1, h2, h3, h4, p {
         font-size: small;
-    }
-    header {
-        font-size: x-large;
     }
 }
 
