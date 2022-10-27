@@ -75,9 +75,7 @@ p {
     font-family: 'Righteous', cursive;
 }
 
-
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 450px) {
     h1, h2, h3, h4, p {
         font-size: small;
     }
@@ -85,5 +83,7 @@ p {
         font-size: x-large;
     }
 }
+
+
 
 
