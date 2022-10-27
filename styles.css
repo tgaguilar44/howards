@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(water2.gif);
+}
+
+header {
+    color: aqua;
+    text-align: center;
+    font-size: 75px;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+    background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+    float: left;
+    width: 33.33%;
+    font-size: 30px;
+    background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+
+}
+
+h4 {
+    display: block;
+    text-align: center;
+    margin-right: 10%;
+    float: right;
+    width: 33.33%;
+    font-size: 50px;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin-right: 10%;
+    float: right;
+    width: 33.33%;
+    font-size: 32px;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    h1, h2, h3, h4, p {
+        font-size: small;
+    }
+    header {
+        font-size: x-large;
+    }
+}
+
+
